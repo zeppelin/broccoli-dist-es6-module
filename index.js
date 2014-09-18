@@ -55,7 +55,8 @@ function transpileNamedAMD(tree, options) {
     anonymous: false,
     compatFix: true,
     packageName: options.packageName,
-    main: options.main
+    main: options.main,
+    shim: options.shim
   });
 }
 
